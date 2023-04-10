@@ -28,9 +28,14 @@ public class AudioTypeManager
 		BFlat		= 16, // シ♭
 		B			= 17, // シ
 		BSharp		= 18, // シ＃
-		CCode		= 19, // Cコード（ド、ミ、ソ）
-		CSharpCode	= 20, // C＃コード（ド＃、ミ＃、ソ＃）
-		DFlatCode	= 21, // C♭コード（レ♭、ファ、ラ♭）
-		DCode		= 22, // Dコード（レ、ファ＃、ラ）
+		CCode		= 19, // Cコード	（ド、		ミ、	ソ）
+		CSharpCode	= 20, // C＃コード	（ド＃、	ミ＃、	ソ＃）
+		DFlatCode	= 21, // C♭コード	（レ♭、	ファ、	ラ♭）
+		DCode		= 22, // Dコード	（レ、		ファ＃、ラ）
+		DSharpCode	= 23, // D＃コード	（レ＃、	ソ、	ラ＃）
+		EFlatCode	= 24, // E♭コード	（ミ♭、	ソ、	シ♭）
+		ECode		= 25, // Eコード	（ミ、		ソ＃、	シ）
+		FCode		= 26, // Fコード	（ファ、	ラ、	ド）
+		FSharpCode	= 27, // F＃コード	（ファ＃、）
 	}
 }

@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
 	// Object to display results
 	[SerializeField]
-	GameObject resultObject;
+	GameObject resultCanvas;
 
 	// Selected answer number
 	List<int> answerNumbers = new List<int>();
@@ -15,9 +15,7 @@ public class GameManager : MonoBehaviour
 	private void Awake()
 	{
 		// Hiding Objects Showing Results
-		resultObject.SetActive(false);
-
-		Debug.Log(AudioTypeManager.SoundType.CCode);
+		resultCanvas.SetActive(false);
 	}
 
 	/// <summary>
