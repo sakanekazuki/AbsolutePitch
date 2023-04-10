@@ -36,6 +36,6 @@ public class AudioTypeManager
 		EFlatCode	= 24, // E♭コード	（ミ♭、	ソ、	シ♭）
 		ECode		= 25, // Eコード	（ミ、		ソ＃、	シ）
 		FCode		= 26, // Fコード	（ファ、	ラ、	ド）
-		FSharpCode	= 27, // F＃コード	（ファ＃、）
+		FSharpCode	= 27, // F＃コード	（ファ＃、	ラ＃、	ド＃）
 	}
 }
